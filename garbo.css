@@ -1,0 +1,58 @@
+h1{
+    background-color: rgb(61, 64, 56);
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+    justify-content: space-between;
+}
+body{
+    background-image: url(./winter-snow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.darkbox{
+    background-color: rgb(61, 64, 56);
+    color: beige;
+    border:5px solid rgb(173, 173, 142);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%; 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+ul{
+    font-size: 35px;
+}
+.rubrik{
+    border:5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.kalender{
+    border:10px solid black;
+    box-align: center;
+    margin-bottom: 5%;
+    margin-left: 31%;
+    margin-right: 32%;
+    margin-top: 5%;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.fireworks{
+    border: 10px solid black;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: max-content;
+    width: max-content;
+}
